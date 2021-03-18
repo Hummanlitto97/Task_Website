@@ -5,7 +5,7 @@
     <body>
         <header>
             <div class="logo-container">
-                <img src="\Resources\Images\Logo\Logo.png" alt="logo">
+                <img src="Resources/Images/Logo/Logo.png" alt="logo">
             </div>
         </header>
         <main>
