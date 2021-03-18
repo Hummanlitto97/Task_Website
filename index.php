@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <img class="bg" src="Resources/Images/1.jpg"/>
+            <img class="bg" src="Resources/Images/SVG/HeaderWave.svg"/>
             <div class="logo-container">
                 <img src="Resources/Images/Logo/Logo.png" alt="logo">
             </div>
