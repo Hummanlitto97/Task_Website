@@ -5,9 +5,10 @@
     <body>
         <header>
             <div class="logo-container">
-                <img src="" alt="logo">
+                <img src="\Resources\Images\Logo\Logo.png" alt="logo">
             </div>
         </header>
+        <main>
             <section>
                 <div>Neleiskite, kad prarasti dantys taptu nuosprendžiu !</div>
                 <div>Kodėl netenkame dantų ?</div>
@@ -38,6 +39,7 @@
                 </div>
             </section>
             <section>
+                <div>06<div class="line"></div></div>
                 <p>Pradėti yra praprasta<br>
                 <strong>ženkite pirmą žingsnį</strong></p>
                 <p>Registracija nemokamai konsultacijai</p>
@@ -50,5 +52,6 @@
                         <button>Registruotis</button>
                 </form>
             </section>
+        </main>
     </body>
 </html>
