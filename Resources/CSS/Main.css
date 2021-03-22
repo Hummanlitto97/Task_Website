@@ -1,4 +1,134 @@
+.font-size-236, .number {
+  font-size: 236;
+}
+
+.font-size-120 {
+  font-size: 120;
+}
+
+.font-size-116 {
+  font-size: 116;
+}
+
+.font-size-92 {
+  font-size: 92;
+}
+
+.font-size-80 {
+  font-size: 80;
+}
+
+.font-size-74 {
+  font-size: 74;
+}
+
+.font-size-67 {
+  font-size: 67;
+}
+
+.font-size-64 {
+  font-size: 64;
+}
+
+.font-size-60 {
+  font-size: 60;
+}
+
+.font-size-55 {
+  font-size: 55;
+}
+
+.font-size-40, .employee-card > .content > .name {
+  font-size: 40;
+}
+
+.font-size-30, .employee-card > .content > .position {
+  font-size: 30;
+}
+
+.font-weight-lighter, .employee-card > .content > .position {
+  font-weight: lighter;
+}
+
+.font-weight-bold, .employee-card > .content > .name, .number {
+  font-weight: bold;
+}
+
+:root {
+  --fg-main-color: #ED4296;
+  --fg-secondary-color: #373F50;
+  --main-shadow-color: #614A9D;
+  --submit-button-color: #FF0815;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
+}
+
+p {
+  color: var(--fg-secondary-color);
+}
+
+h1 {
+  color: var(--fg-main-color);
+}
+
+.f-dis, .employee-card > .content {
+  display: flex;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-col, .employee-card > .content {
+  flex-direction: column;
+}
+
+.f-center, .employee-card > .content {
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: absolute;
+}
+
+.smooth-box {
+  border-radius: 50%;
+}
+
+img.grey {
+  filter: grayscale(100%);
+  transition: 0.8 filter;
+}
+img.grey :hover {
+  filter: grayscale(0%);
+}
+
+.dark-shadow {
+  box-shadow: 2px 2px 80px #00000052;
+}
+
+.light-shadow {
+  box-shadow: 2px 2px 80px #614A9D88;
+}
+
+.number {
+  text-shadow: 2px 2px 80px #00000052;
+}
+
+.employee-card > img {
+  position: absolute;
+}
+.employee-card > .content > .name {
+  color: var(--fg-main-color);
+}
+.employee-card > .content > .description {
+  color: var(--fg-secondary-color);
+}
+
+.example-modal {
+  filter: grayscale(100%);
 }

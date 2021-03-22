@@ -14,8 +14,10 @@
         </header>
         <main>
             <section>
-                <div>Neleiskite, kad prarasti dantys taptu nuosprendžiu !</div>
-                <div>Kodėl netenkame dantų ?</div>
+                <div class="font-size-74 font-weight-bold">Neleiskite, kad prarasti dantys</div>
+                <div class="font-size-92 font-weight-bold">taptu nuosprendžiu !</div>
+                <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
+                <div class="number">01</div>
                 <ul class="example-modals">
                     <?php for($i = 0;$i < 3;$i++)
                     {?>
