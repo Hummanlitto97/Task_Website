@@ -155,7 +155,7 @@ header > .logo-container > img {
 }
 
 .smooth-box, .b3-employees-cards li, .b1-img {
-  border-radius: 5%;
+  border-radius: 20px;
 }
 
 .b1-title, .b6-title {
@@ -236,6 +236,9 @@ header > .logo-container > img {
   box-shadow: 2px 2px 80px #614A9D88;
   padding: 10px;
 }
+.b3-employees-cards li > * {
+  margin-block: 10px;
+}
 .b3-employees-cards li > hr {
   margin-inline: 35px;
 }
@@ -256,8 +259,4 @@ header > .logo-container > img {
 
 .number {
   text-shadow: 2px 2px 80px #00000052;
-}
-
-.b3-employee-card li > * {
-  margin-block: 10px;
 }
