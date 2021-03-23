@@ -15,9 +15,9 @@
         </header>
         <main>
             <section>
-                <div class="font-size-74 font-weight-bold">Neleiskite, kad prarasti dantys</div>
-                <div class="font-size-92 font-weight-bold">taptu nuosprendžiu !</div>
-                <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
+                <div class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys</div>
+                <div class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</div>
+                <div class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</div>
                 <div class="b1-title">01</div>
                 <ul class="b1-imgs">
                     <?php for($i = 1;$i <= 3;$i++)
@@ -33,7 +33,7 @@
             </section>
             <section>
                 <div class="b3-title">03</div>
-                <div class="font-size-64">Gydytojai pataria</div>
+                <div class="font-size-64 fg-main">Gydytojai pataria</div>
                 <ul class="b3-employees-cards">
                     <li class="b3-employee-card-8">
                         <div class="name">Name</div>
@@ -53,16 +53,16 @@
             </section>
             <section>
                 <div class="b6-title">06</div>
-                <p>Pradėti yra praprasta<br>
-                <strong>ženkite pirmą žingsnį</strong></p>
-                <p>Registracija nemokamai konsultacijai</p>
-                <p>Liko <strong>9</strong> nemokamos registracijos</p>
+                <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
+                <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
+                <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
+                <p class="font-size-116 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold">9</strong> nemokamos registracijos</p>
                 <form>
                         <div>
                             <input type="text" placeholder="Vardas, pavardė"/>
                             <input type="text" placeholder="Telefonas"/>
                         </div>
-                        <button>Registruotis</button>
+                        <button type="submit" class="font-size-70 font-weight-bold ">Registruotis</button>
                 </form>
             </section>
         </main>
