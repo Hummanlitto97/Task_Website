@@ -46,19 +46,19 @@
   font-size: 55px;
 }
 
-.font-size-40, .employee-card > .content > .name, .b3-employees-cards li > .name {
+.font-size-40, .b3-employees-cards li > .name {
   font-size: 40px;
 }
 
-.font-size-30, .employee-card > .content > .position, .b3-employees-cards li > .position {
+.font-size-30, .b3-employees-cards li > .position {
   font-size: 30px;
 }
 
-.font-weight-lighter, .employee-card > .content > .position, .b3-employees-cards li > .position {
+.font-weight-lighter, .b3-employees-cards li > .position {
   font-weight: lighter;
 }
 
-.font-weight-bold, .employee-card > .content > .name, .number, .b3-employees-cards li > .name {
+.font-weight-bold, .number, .b3-employees-cards li > .name {
   font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ header > .logo-container > img {
   margin-top: 100px;
 }
 
-.f-dis, .employee-card > .content, .b3-employees-cards li, .b3-employees-cards, .b1-imgs li, .b1-imgs {
+.f-dis, .b3-employees-cards li, .b3-employees-cards, .b1-imgs li, .b1-imgs {
   display: flex;
 }
 
@@ -140,11 +140,11 @@ header > .logo-container > img {
   flex-direction: row;
 }
 
-.f-col, .employee-card > .content, .b3-employees-cards li, .b1-imgs li {
+.f-col, .b3-employees-cards li, .b1-imgs li {
   flex-direction: column;
 }
 
-.f-center, .employee-card > .content {
+.f-center {
   justify-content: center;
   align-items: center;
 }
@@ -258,12 +258,6 @@ header > .logo-container > img {
   text-shadow: 2px 2px 80px #00000052;
 }
 
-.employee-card > img {
-  position: absolute;
-}
-.employee-card > .content > .name {
-  color: var(--fg-main-color);
-}
-.employee-card > .content > .description {
-  color: var(--fg-secondary-color);
+.b3-employee-card li > * {
+  margin-block: 10px;
 }
