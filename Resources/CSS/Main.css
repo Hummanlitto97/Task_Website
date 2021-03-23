@@ -78,11 +78,11 @@ ul {
   list-style: none;
 }
 
-.f-dis, .employee-card > .content {
+.f-dis, .employee-card > .content, .list-box-modals {
   display: flex;
 }
 
-.f-row {
+.f-row, .list-box-modals {
   flex-direction: row;
 }
 
@@ -106,9 +106,10 @@ ul {
 
 .list-box-modals {
   list-style-type: none;
+  justify-content: space-evenly;
 }
 .list-box-modals li:nth-child(2n) {
-  margin-bottom: 50px;
+  margin-top: -50px;
 }
 
 img.grey {
@@ -120,7 +121,7 @@ img.grey :hover {
 }
 
 img.box {
-  width: 250px;
+  width: 500px;
 }
 
 .dark-shadow {
