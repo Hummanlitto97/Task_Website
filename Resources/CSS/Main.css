@@ -140,7 +140,7 @@ button[type=submit] {
   background-color: var(--submit-button-color);
 }
 
-.f-dis, .b3-employees-cards li, .b3-employees-cards, .b1-imgs li, .b1-imgs {
+.f-dis, .register-form, .b3-employees-cards li, .b3-employees-cards, .b1-imgs li, .b1-imgs {
   display: flex;
 }
 
@@ -148,11 +148,11 @@ button[type=submit] {
   flex-direction: row;
 }
 
-.f-col, .b3-employees-cards li, .b1-imgs li {
+.f-col, .register-form, .b3-employees-cards li, .b1-imgs li {
   flex-direction: column;
 }
 
-.f-center {
+.f-center, .register-form {
   justify-content: center;
   align-items: center;
 }
@@ -283,4 +283,8 @@ button[type=submit] {
 
 .number {
   text-shadow: 2px 2px 80px #00000052;
+}
+
+.register-form > * {
+  margin-block: 10px;
 }
