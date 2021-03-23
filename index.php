@@ -33,7 +33,6 @@
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
             <section>
-                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
                 <div class="b3-title">03</div>
                 <div class="font-size-64 fg-main">Gydytojai pataria</div>
                 <ul class="b3-employees-cards">
@@ -52,6 +51,7 @@
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
                     </li>
                 </ul>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
             </section>
             <section>
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 7.svg"/>
