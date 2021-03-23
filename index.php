@@ -20,12 +20,11 @@
                 <div class="number">01</div>
                 <ul class="list-box-modals f-dis f-row">
                     <?php for($i = 1;$i <= 3;$i++)
-                    {
-                        $class = $i === 1 ? "box smooth-box" : "box smooth-box grey"?>
-                    <li>
-                        <img class="<?php echo $class?>" src="Resources/Images/<?php echo $i ?>.jpg"/>
-                        <p>Title <?php echo $i?></p>
-                    </li>
+                    {?>
+                        <li class="box f-dis f-col">
+                            <div class="f-4 smooth-box box-image-<?php echo $i ?>"></div>
+                            <p class="f-1">Title <?php echo $i?></p>
+                        </li>
                     <?php }?>
                 </ul>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 

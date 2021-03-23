@@ -1,3 +1,11 @@
+.f-1 {
+  flex: 1;
+}
+
+.f-4 {
+  flex: 4;
+}
+
 .font-size-236, .number {
   font-size: 236px;
 }
@@ -52,6 +60,30 @@
 
 .font-weight-bold, .employee-card > .content > .name, .number {
   font-weight: bold;
+}
+
+.box-image-1 {
+  background-image: url(../Images/1.jpg);
+  background-position: center;
+  background-size: contain;
+  backdrop-filter: greyscale(0%);
+  margin-top: 0;
+}
+
+.box-image-2 {
+  background-image: url(../Images/2.jpg);
+  background-position: center;
+  background-size: contain;
+  backdrop-filter: greyscale(100%);
+  margin-top: -50px;
+}
+
+.box-image-3 {
+  background-image: url(../Images/3.jpg);
+  background-position: center;
+  background-size: contain;
+  backdrop-filter: greyscale(100%);
+  margin-top: 0;
 }
 
 :root {
