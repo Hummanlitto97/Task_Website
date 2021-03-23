@@ -131,4 +131,5 @@ img.grey :hover {
 
 .example-modal {
   filter: grayscale(100%);
+  text-decoration: none;
 }

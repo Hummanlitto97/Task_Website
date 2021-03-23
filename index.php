@@ -19,11 +19,12 @@
                 <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
                 <div class="number">01</div>
                 <ul class="example-modals">
-                    <?php for($i = 0;$i < 3;$i++)
-                    {?>
-                    <li class="example-modal-<?php echo $i?>">
-                        <img src=""/>
-                        <p></p>
+                    <?php for($i = 1;$i <= 3;$i++)
+                    {
+                        $class = $i === 1 ? "smooth-box" : "smooth-box grey"?>
+                    <li class="<?php echo $class?>">
+                        <img src="Resources/Images/<?php echo $i ?>.jpg"/>
+                        <p>Title <?php echo $i?></p>
                     </li>
                     <?php }?>
                 </ul>
