@@ -18,11 +18,11 @@
                 <div class="font-size-92 font-weight-bold">taptu nuosprendžiu !</div>
                 <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
                 <div class="number">01</div>
-                <ul class="list-box-modals f-dis f-row">
+                <ul class="b1-imgs">
                     <?php for($i = 1;$i <= 3;$i++)
                     {?>
-                        <li class="box f-dis f-col">
-                            <div class="f-4 smooth-box box-image-<?php echo $i ?>"></div>
+                        <li>
+                            <div class="f-4 b1-img b1-img-<?php echo $i ?>"></div>
                             <p class="f-1">Title <?php echo $i?></p>
                         </li>
                     <?php }?>
