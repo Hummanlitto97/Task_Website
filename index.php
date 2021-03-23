@@ -22,8 +22,8 @@
                     <?php for($i = 1;$i <= 3;$i++)
                     {
                         $class = $i === 1 ? "box smooth-box" : "box smooth-box grey"?>
-                    <li class="<?php echo $class?>">
-                        <img src="Resources/Images/<?php echo $i ?>.jpg"/>
+                    <li>
+                        <img class="<?php echo $class?>" src="Resources/Images/<?php echo $i ?>.jpg"/>
                         <p>Title <?php echo $i?></p>
                     </li>
                     <?php }?>
