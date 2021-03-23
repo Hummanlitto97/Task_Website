@@ -98,6 +98,14 @@ ul {
   list-style: none;
 }
 
+main, header {
+  margin-inline: 100px;
+}
+
+header {
+  margin-top: 100px;
+}
+
 .f-dis, .employee-card > .content, .b1-imgs li, .b1-imgs {
   display: flex;
 }
@@ -125,16 +133,16 @@ ul {
 }
 
 .b1-img {
-  backdrop-filter: grayscale(100%);
+  filter: grayscale(1);
   transition: filter 0.8s;
   background-position: center;
   background-size: cover;
 }
 .b1-img .active {
-  backdrop-filter: grayscale(0%);
+  filter: grayscale(0);
 }
 .b1-img :hover {
-  backdrop-filter: grayscale(0%);
+  filter: grayscale(0);
 }
 
 .b1-imgs {
@@ -158,6 +166,11 @@ ul {
 
 .light-shadow {
   box-shadow: 2px 2px 80px #614A9D88;
+}
+
+.logo-container > img {
+  width: 200px;
+  margin: 100px;
 }
 
 .number {
