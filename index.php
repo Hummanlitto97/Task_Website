@@ -35,14 +35,14 @@
                 <div class="b3-title">03</div>
                 <div class="font-size-64">Gydytojai pataria</div>
                 <ul class="b3-employees-cards">
-                    <li class="b3-employee-card b3-employee-card-8">
+                    <li class="b3-employee-card-8">
                         <div class="name">Name</div>
                         <div class="position">Position</div>
                         <hr>
                         <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
                     </li>
-                    <li class="b3-employee-card b3-employee-card-9">
+                    <li class="b3-employee-card-9">
                         <div class="name">Name</div>
                         <div class="position">Position</div>
                         <hr>

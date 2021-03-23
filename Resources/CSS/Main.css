@@ -81,10 +81,10 @@
   background-repeat: no-repeat;
   content: "";
   width: 100%;
-  height: 162%;
+  height: 100%;
   position: absolute;
   right: -13%;
-  top: -139%;
+  top: -86%;
 }
 
 .b3-employee-card-9::after {
@@ -94,10 +94,10 @@
   background-repeat: no-repeat;
   content: "";
   width: 100%;
-  height: 162%;
+  height: 100%;
   position: absolute;
   right: -13%;
-  top: -139%;
+  top: -86%;
 }
 
 :root {
