@@ -6,7 +6,7 @@
   flex: 4;
 }
 
-.font-size-236, .number {
+.font-size-236, .number, .b1-title {
   font-size: 236px;
 }
 
@@ -132,6 +132,18 @@ header > .logo-container > img {
   border-radius: 5%;
 }
 
+.b1-title {
+  text-shadow: 2px 2px 80px #00000052;
+}
+.b1-title::after {
+  content: "";
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .b1-img {
   filter: grayscale(1);
   transition: filter 0.8s;
@@ -151,7 +163,7 @@ header > .logo-container > img {
 }
 .b1-imgs li {
   width: 400px;
-  height: 250px;
+  height: 400px;
 }
 .b1-imgs li > p {
   text-align: center;

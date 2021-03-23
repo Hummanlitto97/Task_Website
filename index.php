@@ -17,7 +17,7 @@
                 <div class="font-size-74 font-weight-bold">Neleiskite, kad prarasti dantys</div>
                 <div class="font-size-92 font-weight-bold">taptu nuosprendžiu !</div>
                 <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
-                <div class="number">01</div>
+                <div class="b1-title">01</div>
                 <ul class="b1-imgs">
                     <?php for($i = 1;$i <= 3;$i++)
                     {?>
