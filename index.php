@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8"/>
+        <title>Rieses Odontologija</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="Resources/CSS/Main.css"/>
     </head>
@@ -27,25 +28,31 @@
                         </li>
                     <?php }?>
                 </ul>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 
+                <p class="b1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
             <section>
-                <div>03<div class="line"></div></div>
-                <div>Gydytojai pataria</div>
-                <div>
-                        <img/>
-                        <div>
-                            <div>Name</div>
-                            <div>Position</div>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
-                            eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
-                        </div>
-                </div>
+                <div class="b3-title">03</div>
+                <div class="font-size-64">Gydytojai pataria</div>
+                <ul class="b3-employees-cards">
+                    <li class="b3-employee-card-8">
+                        <div class="name">Name</div>
+                        <div class="position">Position</div>
+                        <hr>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
+                        eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
+                    </li>
+                    <li class="b3-employee-card-9">
+                        <div class="name">Name</div>
+                        <div class="position">Position</div>
+                        <hr>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
+                        eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
+                    </li>
+                </ul>
             </section>
             <section>
-                <div>06<div class="line"></div></div>
+                <div class="b6-title">06</div>
                 <p>Pradėti yra praprasta<br>
                 <strong>ženkite pirmą žingsnį</strong></p>
                 <p>Registracija nemokamai konsultacijai</p>
