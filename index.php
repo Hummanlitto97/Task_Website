@@ -22,7 +22,7 @@
                     <?php for($i = 1;$i <= 3;$i++)
                     {?>
                         <li>
-                            <div class="f-4 b1-img b1-img-<?php echo $i ?>"></div>
+                            <div class="f-4 b1-img b1-img-<?php echo $i === 1 ? $i." active" : $i; ?>"></div>
                             <p class="f-1">Title <?php echo $i?></p>
                         </li>
                     <?php }?>

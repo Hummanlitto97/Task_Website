@@ -98,7 +98,7 @@ ul {
   list-style: none;
 }
 
-main, header {
+main, header > .logo-container {
   margin-inline: 100px;
 }
 
