@@ -108,20 +108,24 @@ ul {
   list-style-type: none;
   justify-content: space-evenly;
 }
+.list-box-modals li {
+  width: 400px;
+  height: 200px;
+}
 .list-box-modals li:nth-child(2n) {
   margin-top: -50px;
 }
 
 img.grey {
   filter: grayscale(100%);
-  transition: 0.8 filter;
+  transition: filter 0.8s;
 }
 img.grey :hover {
   filter: grayscale(0%);
 }
 
 img.box {
-  width: 500px;
+  object-fit: scale-down;
 }
 
 .dark-shadow {
