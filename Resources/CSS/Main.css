@@ -101,13 +101,13 @@ ul {
 }
 
 .smooth-box {
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .list-box-modals {
   list-style-type: none;
 }
-.list-box-modals :nth-child(n+1) {
+.list-box-modals li:nth-child(2n) {
   margin-bottom: 50px;
 }
 
