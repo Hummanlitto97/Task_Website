@@ -75,7 +75,7 @@
 }
 
 .b3-employee-card-8::after {
-  background-image: url(../Images/8.jpg);
+  background-image: url(../Images/8.png);
   content: "";
   width: 100%;
   height: 100%;
@@ -85,7 +85,7 @@
 }
 
 .b3-employee-card-9::after {
-  background-image: url(../Images/9.jpg);
+  background-image: url(../Images/9.png);
   content: "";
   width: 100%;
   height: 100%;
@@ -148,7 +148,7 @@ header > .logo-container > img {
   z-index: -1;
 }
 
-.smooth-box, .b1-img {
+.smooth-box, .b3-employees-cards li, .b1-img {
   border-radius: 5%;
 }
 
@@ -225,6 +225,8 @@ header > .logo-container > img {
 .b3-employees-cards li {
   width: 400px;
   height: auto;
+  position: relative;
+  box-shadow: 2px 2px 80px #614A9D88;
 }
 .b3-employees-cards li > .name {
   text-align: center;
@@ -234,14 +236,6 @@ header > .logo-container > img {
 }
 .b3-employees-cards li:nth-child(2n) {
   margin-top: -50px;
-}
-
-.dark-shadow {
-  box-shadow: 2px 2px 80px #00000052;
-}
-
-.light-shadow {
-  box-shadow: 2px 2px 80px #614A9D88;
 }
 
 .logo-container > img {
