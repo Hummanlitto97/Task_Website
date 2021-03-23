@@ -81,10 +81,10 @@
   background-repeat: no-repeat;
   content: "";
   width: 100%;
-  height: 100%;
+  height: 300px;
   position: absolute;
   right: -13%;
-  top: -86%;
+  top: -250px;
 }
 
 .b3-employee-card-9::after {
@@ -94,10 +94,10 @@
   background-repeat: no-repeat;
   content: "";
   width: 100%;
-  height: 91%;
+  height: 300px;
   position: absolute;
   right: -10%;
-  top: -10%;
+  top: -250px;
 }
 
 :root {
@@ -251,7 +251,8 @@ header > .logo-container > img {
   box-shadow: 2px 2px 80px #614A9D88;
 }
 .b3-employees-cards li:nth-child(2n) {
-  margin-top: -50px;
+  margin-top: -100px;
+  margin-bottom: 100px;
   box-shadow: 2px 2px 80px #00000052;
 }
 
