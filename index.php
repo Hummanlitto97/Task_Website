@@ -56,7 +56,7 @@
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
                 <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
                 <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
-                <p class="font-size-116 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold">9</strong> nemokamos registracijos</p>
+                <p class="font-size-116 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
                 <form>
                         <div>
                             <input type="text" placeholder="Vardas, pavardė"/>
