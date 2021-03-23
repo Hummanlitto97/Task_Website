@@ -33,7 +33,7 @@
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
             <section>
-                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 7.svg"/>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <div class="b3-title">03</div>
                 <div class="font-size-64 fg-main">Gydytojai pataria</div>
                 <ul class="b3-employees-cards">
@@ -54,6 +54,7 @@
                 </ul>
             </section>
             <section>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 7.svg"/>
                 <div class="b6-title">06</div>
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
                 <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
