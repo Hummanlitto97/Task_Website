@@ -94,10 +94,10 @@
   background-repeat: no-repeat;
   content: "";
   width: 100%;
-  height: 100%;
+  height: 91%;
   position: absolute;
-  right: -13%;
-  top: -86%;
+  right: -10%;
+  top: -10%;
 }
 
 :root {
@@ -233,7 +233,6 @@ header > .logo-container > img {
   width: 400px;
   height: auto;
   position: relative;
-  box-shadow: 2px 2px 80px #614A9D88;
   padding: 10px;
 }
 .b3-employees-cards li > * {
@@ -248,8 +247,12 @@ header > .logo-container > img {
 .b3-employees-cards li > .position {
   text-align: center;
 }
+.b3-employees-cards li:nth-child(2n+1) {
+  box-shadow: 2px 2px 80px #614A9D88;
+}
 .b3-employees-cards li:nth-child(2n) {
   margin-top: -50px;
+  box-shadow: 2px 2px 80px #00000052;
 }
 
 .logo-container > img {
