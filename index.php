@@ -18,10 +18,10 @@
                 <div class="font-size-92 font-weight-bold">taptu nuosprendžiu !</div>
                 <div class="font-size-64 font-weight-bold">Kodėl netenkame dantų ?</div>
                 <div class="number">01</div>
-                <ul class="example-modals">
+                <ul class="list-box-modals f-dis f-row">
                     <?php for($i = 1;$i <= 3;$i++)
                     {
-                        $class = $i === 1 ? "smooth-box" : "smooth-box grey"?>
+                        $class = $i === 1 ? "box smooth-box" : "box smooth-box grey"?>
                     <li class="<?php echo $class?>">
                         <img src="Resources/Images/<?php echo $i ?>.jpg"/>
                         <p>Title <?php echo $i?></p>

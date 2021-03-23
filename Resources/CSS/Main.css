@@ -1,49 +1,49 @@
 .font-size-236, .number {
-  font-size: 236;
+  font-size: 236px;
 }
 
 .font-size-120 {
-  font-size: 120;
+  font-size: 120px;
 }
 
 .font-size-116 {
-  font-size: 116;
+  font-size: 116px;
 }
 
 .font-size-92 {
-  font-size: 92;
+  font-size: 92px;
 }
 
 .font-size-80 {
-  font-size: 80;
+  font-size: 80px;
 }
 
 .font-size-74 {
-  font-size: 74;
+  font-size: 74px;
 }
 
 .font-size-67 {
-  font-size: 67;
+  font-size: 67px;
 }
 
 .font-size-64 {
-  font-size: 64;
+  font-size: 64px;
 }
 
 .font-size-60 {
-  font-size: 60;
+  font-size: 60px;
 }
 
 .font-size-55 {
-  font-size: 55;
+  font-size: 55px;
 }
 
 .font-size-40, .employee-card > .content > .name {
-  font-size: 40;
+  font-size: 40px;
 }
 
 .font-size-30, .employee-card > .content > .position {
-  font-size: 30;
+  font-size: 30px;
 }
 
 .font-weight-lighter, .employee-card > .content > .position {
@@ -74,6 +74,10 @@ h1 {
   color: var(--fg-main-color);
 }
 
+ul {
+  list-style: none;
+}
+
 .f-dis, .employee-card > .content {
   display: flex;
 }
@@ -93,10 +97,18 @@ h1 {
 
 .bg {
   position: absolute;
+  z-index: -1;
 }
 
 .smooth-box {
   border-radius: 50%;
+}
+
+.list-box-modals {
+  list-style-type: none;
+}
+.list-box-modals :nth-child(n+1) {
+  margin-bottom: 50px;
 }
 
 img.grey {
@@ -105,6 +117,10 @@ img.grey {
 }
 img.grey :hover {
   filter: grayscale(0%);
+}
+
+img.box {
+  width: 250px;
 }
 
 .dark-shadow {
@@ -127,9 +143,4 @@ img.grey :hover {
 }
 .employee-card > .content > .description {
   color: var(--fg-secondary-color);
-}
-
-.example-modal {
-  filter: grayscale(100%);
-  text-decoration: none;
 }
