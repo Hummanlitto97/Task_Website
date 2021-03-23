@@ -15,6 +15,7 @@
         </header>
         <main>
             <section>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 3.svg"/>
                 <div class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys</div>
                 <div class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</div>
                 <div class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</div>
@@ -32,6 +33,7 @@
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
             <section>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 7.svg"/>
                 <div class="b3-title">03</div>
                 <div class="font-size-64 fg-main">Gydytojai pataria</div>
                 <ul class="b3-employees-cards">
@@ -66,5 +68,8 @@
                 </form>
             </section>
         </main>
+        <footer>
+            <img class="bg" src="Resources/Images/SVG/FooterWave.svg"/>
+        </footer>
     </body>
 </html>

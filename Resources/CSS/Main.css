@@ -128,6 +128,10 @@ ul {
   list-style: none;
 }
 
+section {
+  position: relative;
+}
+
 main, header > .logo-container > img {
   margin-inline: 100px;
 }
@@ -138,6 +142,9 @@ header > .logo-container > img {
 
 button[type=submit] {
   background-color: var(--submit-button-color);
+  padding: 100px;
+  color: white;
+  box-shadow: 2px 2px 80px #614A9D88;
 }
 
 .f-dis, .register-form, .b3-employees-cards li, .b3-employees-cards, .b1-imgs li, .b1-imgs {
