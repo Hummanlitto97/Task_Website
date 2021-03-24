@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Rieses Odontologija</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/Resources/Favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/Resources/Favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/Resources/Favicon/favicon-16x16.png">
-        <link rel="manifest" href="/Resources/Favicon/site.webmanifest">
-        <link rel="mask-icon" href="/Resources/Favicon/safari-pinned-tab.svg" color="#353535">
+        <link rel="apple-touch-icon" sizes="180x180" href="Resources/Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Resources/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Resources/Favicon/favicon-16x16.png">
+        <link rel="manifest" href="Resources/Favicon/site.webmanifest">
+        <link rel="mask-icon" href="Resources/Favicon/safari-pinned-tab.svg" color="#353535">
         <meta name="msapplication-TileColor" content="#000000">
         <meta name="theme-color" content="#000000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
