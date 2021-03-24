@@ -6,7 +6,7 @@
   flex: 4;
 }
 
-.font-size-236, .number, .b3-title, .b1-title, .b6-title {
+.font-size-236 {
   font-size: 236px;
 }
 
@@ -50,11 +50,11 @@
   font-size: 55px;
 }
 
-.font-size-40, .b3-employees-cards li > .name {
+.font-size-40 {
   font-size: 40px;
 }
 
-.font-size-30, .b3-employees-cards li > .position {
+.font-size-30 {
   font-size: 30px;
 }
 
@@ -132,6 +132,10 @@ section, footer {
   position: relative;
 }
 
+footer > * {
+  margin: 50px;
+}
+
 main, header > .logo-container > img {
   margin-inline: 100px;
 }
@@ -178,6 +182,7 @@ button[type=submit] {
   position: relative;
   text-align: right;
   color: white;
+  font-size: 236px;
 }
 .b1-title::after, .b6-title::after {
   content: "";
@@ -207,6 +212,7 @@ button[type=submit] {
   position: relative;
   text-align: left;
   color: white;
+  font-size: 236px;
 }
 .b3-title::after {
   content: "";
@@ -270,8 +276,10 @@ button[type=submit] {
 }
 .b3-employees-cards li > .name {
   text-align: center;
+  font-size: 40px;
 }
 .b3-employees-cards li > .position {
+  font-size: 30px;
   text-align: center;
 }
 .b3-employees-cards li:nth-child(2n+1) {
@@ -289,6 +297,7 @@ button[type=submit] {
 }
 
 .number {
+  font-size: 236px;
   text-shadow: 2px 2px 80px #00000052;
 }
 
@@ -298,9 +307,24 @@ button[type=submit] {
 .register-form > * {
   margin-block: 10px;
 }
+.register-form > inputss {
+  font-size: 30px;
+}
 
 .arrow {
   width: 300px;
   right: 0px;
   top: 415px;
+}
+
+.footer-address {
+  list-style-type: none;
+}
+.footer-address > li:first {
+  border-right: solid 5px #FFF;
+}
+
+.social-bar {
+  list-style-type: none;
+  padding: 0;
 }

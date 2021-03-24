@@ -15,9 +15,10 @@
         </header>
         <main>
             <section>
-                <div class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys</div>
-                <div class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</div>
-                <div class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</div>
+                <h1 class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys<br>
+                <span class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</span><br>
+                <span class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</span>
+            </h1>
                 <div class="b1-title">01</div>
                 <ul class="b1-imgs">
                     <?php for($i = 1;$i <= 3;$i++)
@@ -33,7 +34,7 @@
             </section>
             <section>
                 <div class="b3-title">03</div>
-                <div class="font-size-64 fg-main">Gydytojai pataria</div>
+                <h1 class="font-size-64 fg-main">Gydytojai pataria</h1>
                 <ul class="b3-employees-cards">
                     <li class="b3-employee-card-8">
                         <div class="name">Name</div>
@@ -59,7 +60,7 @@
                 <img class="bg arrow" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <form class="register-form">
                     <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
-                    <p class="font-size-30 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
+                    <p class="font-size-60 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
                         <div>
                             <input class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
                             <input class="smooth-box" type="text" placeholder="Telefonas"/>
@@ -68,8 +69,35 @@
                 </form>
             </section>
         </main>
-        <footer>
+        <footer class="f-dis f-row">
+            <img class="bg" src="Resources/Images/SVG/Map.png"/>
             <img class="bg" src="Resources/Images/SVG/FooterWave.svg"/>
+            <div class="logo-container">
+                <img src="Resources/Images/Logo/Logo.png" alt="logo">
+            </div>
+            <ul class="footer-address f-dis f-row">
+                <li>
+                    <p>MUS RASITE</p>
+                    <address>
+                        <div>Molėtų g. 13-1A, Didžioji Riešė,<div>
+                        <div>LT-14264, Vilniaus raj.</div>
+                        <div>Nemokamas automobilių stovėjimas</div>
+                    </address>
+                </li>
+                <li>
+                    <p>DARBO LAIKAS</p>
+                    <p>I-V - <time datetime="10:00">10:00</time> - <time datetime="19:00">19:00</time>,</p>
+                    <p>VI - <time datetime="10:00">10:00</time> - <time datetime="16:00">16:00</time></p>
+                    <ul class="social-bar">
+                        <li>
+                            <a href="www.facebook.com" target="_blank" rel="no-follow"></a>
+                        </li>
+                        <li>
+                            <a href="www.instagram.com" target="_blank" rel="no-follow"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
