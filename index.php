@@ -15,7 +15,6 @@
         </header>
         <main>
             <section>
-                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 3.svg"/>
                 <div class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys</div>
                 <div class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</div>
                 <div class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</div>
@@ -54,11 +53,10 @@
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
             </section>
             <section>
-                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 7.svg"/>
                 <div class="b6-title">06</div>
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
                 <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
-                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
+                <img class="bg arrow" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <form class="register-form">
                     <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
                     <p class="font-size-30 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>

@@ -142,7 +142,7 @@ header > .logo-container > img {
 
 button[type=submit] {
   background-color: var(--submit-button-color);
-  padding: 100px;
+  padding-inline: 100px;
   color: white;
   box-shadow: 2px 2px 80px #614A9D88;
 }
@@ -297,4 +297,10 @@ button[type=submit] {
 }
 .register-form > * {
   margin-block: 10px;
+}
+
+.arrow {
+  width: 300px;
+  right: 0px;
+  top: 415px;
 }
