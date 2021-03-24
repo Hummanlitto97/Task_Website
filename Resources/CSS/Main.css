@@ -351,6 +351,7 @@ button[type=submit] {
 .b3-employees-cards li > .position {
   font-size: 30px;
   text-align: center;
+  opacity: 0.35;
 }
 .b3-employees-cards li:nth-child(2n+1) {
   box-shadow: 2px 2px 80px #614A9D88;

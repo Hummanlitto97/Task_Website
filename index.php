@@ -47,14 +47,14 @@
                         <div class="name">Name</div>
                         <div class="position fg-secondary">Position</div>
                         <hr>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
+                        <p class="description fg-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
                     </li>
                     <li class="b3-employee-card-9">
                         <div class="name">Name</div>
                         <div class="position fg-secondary">Position</div>
                         <hr>
-                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
+                        <p class="description fg-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
                     </li>
                 </ul>
