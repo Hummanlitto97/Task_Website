@@ -53,7 +53,7 @@
                 </ul>
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 5.svg"/>
             </section>
-            <section>
+            <section class="b6">
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
                 <div class="b6-title">06</div>
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
