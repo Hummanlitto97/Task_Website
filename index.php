@@ -22,9 +22,9 @@
         </header>
         <main>
             <section>
-                <h1 class="font-size-74 font-weight-bold fg-white">Neleiskite, kad prarasti dantys<br>
-                <span class="font-size-92 font-weight-bold fg-white">taptu nuosprendžiu !</span><br>
-                <span class="font-size-64 font-weight-bold fg-white">Kodėl netenkame dantų ?</span>
+                <h1 class="font-size-74 font-family-Montserrat-Bold fg-white">Neleiskite, kad prarasti dantys<br>
+                <span class="font-size-92 font-family-Montserrat-Black fg-white">taptu nuosprendžiu !</span><br>
+                <span class="font-size-64 font-family-Montserrat-Bold fg-white">Kodėl netenkame dantų ?</span>
             </h1>
                 <div class="b1-title">01</div>
                 <ul class="b1-imgs">
@@ -63,17 +63,17 @@
             <section class="b6">
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
                 <div class="b6-title">06</div>
-                <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
-                <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
+                <p class="font-size-67 font-family-Montserrat-Bold fg-secondary">Pradėti yra praprasta<br>
+                <strong class="font-size-120 font-family-Montserrat-Black fg-main">ženkite pirmą žingsnį</strong></p>
                 <img class="bg arrow" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <form class="register-form">
-                    <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
-                    <p class="font-size-60 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
+                    <p class="font-size-80 font-family-Montserrat-Bold fg-secondary">Registracija nemokamai konsultacijai</p>
+                    <p class="font-size-60 font-family-Montserrat-Light">Liko <strong class="font-size-116 font-family-Montserrat-Bold fg-main">9</strong> nemokamos registracijos</p>
                         <div>
                             <input type="text" class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
                             <input type="tel" class="smooth-box" type="text" placeholder="Telefonas"/>
                         </div>
-                        <button type="submit" class="font-size-70 font-weight-bold smooth-box">Registruotis</button>
+                        <button type="submit" class="font-size-70 font-family-Montserrat-Bold smooth-box">Registruotis</button>
                 </form>
             </section>
         </main>

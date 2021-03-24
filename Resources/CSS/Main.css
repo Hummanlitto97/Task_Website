@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Montserrat-Black sans-serif;
+  src: url(../Fonts/Montserrat-Black.otf);
+}
+@font-face {
+  font-family: Montserrat-Bold sans-serif;
+  src: url(../Fonts/Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: Montserrat-Light sans-serif;
+  src: url(../Fonts/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: Montserrat-Regular sans-serif;
+  src: url(../Fonts/Montserrat-Regular.otf);
+}
 .f-1 {
   flex: 1;
 }
@@ -58,12 +74,20 @@
   font-size: 30px;
 }
 
-.font-weight-lighter, .b3-employees-cards li > .position {
-  font-weight: lighter;
+.font-family-Montserrat-Light, .b3-employees-cards li > .position {
+  font-family: Montserrat-Light;
 }
 
-.font-weight-bold, .number, .b3-employees-cards li > .name {
-  font-weight: bold;
+.font-family-Montserrat-Bold, .number, .b3-employees-cards li > .name {
+  font-family: Montserrat-Bold;
+}
+
+.font-family-Montserrat-Black {
+  font-family: Montserrat-Black;
+}
+
+.font-family-Montserrat-Regular {
+  font-family: Montserrat-Regular;
 }
 
 .b1-img-1 {
@@ -206,6 +230,7 @@ button[type=submit] {
   text-align: right;
   color: white;
   font-size: 236px;
+  font-family: "Montserrat-Black";
 }
 .b1-title::after, .b6-title::after {
   content: "";
@@ -236,6 +261,7 @@ button[type=submit] {
   text-align: left;
   color: white;
   font-size: 236px;
+  font-family: "Montserrat-Black";
 }
 .b3-title::after {
   content: "";
@@ -250,6 +276,8 @@ button[type=submit] {
 
 .b1-text {
   text-align: right;
+  font-family: "Montserrat-Light";
+  font-size: 30px;
 }
 
 .b1-img {
@@ -337,7 +365,7 @@ button[type=submit] {
 }
 .register-form input {
   font-size: 30px;
-  font-weight: lighter;
+  font-family: "Montserrat-Light";
   text-align: center;
 }
 
