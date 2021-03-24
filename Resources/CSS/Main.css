@@ -156,6 +156,8 @@ main, header > .logo-container > img {
 
 header > .logo-container > img {
   margin-top: 100px;
+  width: 200px;
+  margin: 100px;
 }
 
 button[type=submit] {
@@ -303,11 +305,6 @@ button[type=submit] {
   margin-top: -100px;
   margin-bottom: 100px;
   box-shadow: 2px 2px 80px #00000052;
-}
-
-.logo-container > img {
-  width: 200px;
-  margin: 100px;
 }
 
 .number {
