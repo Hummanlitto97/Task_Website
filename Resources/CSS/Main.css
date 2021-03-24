@@ -282,7 +282,7 @@ button[type=submit] {
   left: -200px;
 }
 
-.b6 > .bg {
+.b6 > .bg:not(.arrow) {
   top: -330px;
 }
 
