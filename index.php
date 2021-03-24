@@ -97,13 +97,13 @@
                     <p>VI - <time datetime="10:00">10:00</time> - <time datetime="16:00">16:00</time></p>
                     <ul class="social-bar">
                         <li>
-                            <a href="www.facebook.com" target="_blank" rel="no-follow">
+                            <a href="https://facebook.com" target="_blank" rel="no-follow">
                                 <img src="Resources/Images/SVG/Socials/facebook_icon.svg"/>
                             </a>
                         </li>
                         <li>
-                            <a href="www.instagram.com" target="_blank" rel="no-follow">
-                            <img src="Resources/Images/SVG/Socials/insta_icon.svg"/>
+                            <a href="https://instagram.com" target="_blank" rel="no-follow">
+                                <img src="Resources/Images/SVG/Socials/insta_icon.svg"/>
                             </a>
                         </li>
                     </ul>
