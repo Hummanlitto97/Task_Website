@@ -323,6 +323,7 @@ button[type=submit] {
 .register-form input {
   font-size: 30px;
   font-weight: lighter;
+  text-align: center;
 }
 
 .arrow {
