@@ -54,6 +54,7 @@
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
             </section>
             <section>
+                <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 5.svg"/>
                 <div class="b6-title">06</div>
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
                 <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
