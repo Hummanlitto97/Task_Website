@@ -188,13 +188,17 @@ header {
   position: relative;
 }
 
+header > .bg {
+  width: 100%;
+}
+
 main, header > .logo-container > img {
   margin-inline: 100px;
 }
 
 header > .logo-container > img {
   margin-top: 100px;
-  width: 100%;
+  width: 200px;
   margin: 100px;
 }
 
