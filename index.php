@@ -62,8 +62,8 @@
                     <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
                     <p class="font-size-60 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
                         <div>
-                            <input class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
-                            <input class="smooth-box" type="text" placeholder="Telefonas"/>
+                            <input type="text" class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
+                            <input type="tel" class="smooth-box" type="text" placeholder="Telefonas"/>
                         </div>
                         <button type="submit" class="font-size-70 font-weight-bold smooth-box">Registruotis</button>
                 </form>
