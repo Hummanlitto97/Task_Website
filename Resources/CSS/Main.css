@@ -128,7 +128,7 @@ ul {
   list-style: none;
 }
 
-section {
+section, footer {
   position: relative;
 }
 
