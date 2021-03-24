@@ -128,7 +128,7 @@ ul {
   list-style: none;
 }
 
-section:not(:first):not(:last-of-type) {
+section:not(:first-child):not(:last-child) {
   margin-block: 800px;
 }
 
