@@ -129,8 +129,11 @@ ul {
 }
 
 section:not(:first):not(:last-of-type) {
-  position: relative;
   margin-block: 800px;
+}
+
+section {
+  position: relative;
 }
 
 footer {
