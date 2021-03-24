@@ -253,7 +253,7 @@ button[type=submit] {
 }
 
 .fg-secondary {
-  columns: var(--fg-secondary-color);
+  color: var(--fg-secondary-color);
 }
 
 .b3-title {
@@ -310,6 +310,7 @@ button[type=submit] {
   text-align: center;
   font-family: "Montserrat-Bold";
   font-size: 30px;
+  color: var(--fg-secondary-color);
   opacity: 0.35;
 }
 .b1-imgs li:nth-child(2n) {
