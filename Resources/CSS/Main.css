@@ -132,7 +132,7 @@ section, footer {
   position: relative;
 }
 
-footer > * {
+footer > .logo-container, footer > .footer-address {
   margin: 50px;
 }
 
