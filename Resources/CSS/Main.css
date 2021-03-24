@@ -133,7 +133,7 @@ section {
 }
 
 footer {
-  background-image: url(Resources/Images/Map.png);
+  background-image: url(../Images/Map.png);
   position: relative;
   background-size: cover;
   height: 500px;

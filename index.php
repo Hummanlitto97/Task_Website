@@ -70,7 +70,6 @@
             </section>
         </main>
         <footer class="f-dis f-row">
-            <img class="bg" src="Resources/Images/Map.png"/>
             <img class="bg" src="Resources/Images/SVG/FooterWave.svg"/>
             <div class="logo-container">
                 <img src="Resources/Images/Logo/Logo.png" alt="logo">
