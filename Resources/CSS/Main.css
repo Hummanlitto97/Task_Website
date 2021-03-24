@@ -354,4 +354,12 @@ button[type=submit] {
 .social-bar {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.social-bar > li {
+  width: 15px;
+  height: 15px;
 }
