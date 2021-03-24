@@ -184,13 +184,17 @@ footer > .logo-container, footer > .footer-address {
   z-index: 1;
 }
 
+header {
+  position: relative;
+}
+
 main, header > .logo-container > img {
   margin-inline: 100px;
 }
 
 header > .logo-container > img {
   margin-top: 100px;
-  width: 200px;
+  width: 100%;
   margin: 100px;
 }
 
