@@ -32,7 +32,7 @@
                 <p class="b1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
-            <section>
+            <section class="b3">
                 <div class="b3-title">03</div>
                 <h1 class="font-size-64 fg-main">Gydytojai pataria</h1>
                 <ul class="b3-employees-cards">
