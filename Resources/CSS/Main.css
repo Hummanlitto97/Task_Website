@@ -388,8 +388,12 @@ button[type=submit] {
 .footer-address {
   list-style-type: none;
 }
-.footer-address > li:first {
-  border-right: solid 5px #FFF;
+.footer-address > li {
+  padding-inline: 10px;
+  margin-inline: 10px;
+}
+.footer-address > li:first-child {
+  border-right: solid 1px #FFF;
 }
 
 .social-bar {
