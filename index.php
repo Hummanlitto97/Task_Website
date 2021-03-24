@@ -68,7 +68,7 @@
                 <img class="bg arrow" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <form class="register-form">
                     <p class="font-size-80 font-family-Montserrat-Bold fg-secondary">Registracija nemokamai konsultacijai</p>
-                    <p class="font-size-60 font-family-Montserrat-Light">Liko <strong class="font-size-116 font-family-Montserrat-Bold fg-main">9</strong> nemokamos registracijos</p>
+                    <p class="font-size-60 font-family-Montserrat-Light fg-secondary">Liko <strong class="font-size-116 font-family-Montserrat-Bold fg-main">9</strong> nemokamos registracijos</p>
                         <div>
                             <input type="text" class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
                             <input type="tel" class="smooth-box" type="text" placeholder="Telefonas"/>
