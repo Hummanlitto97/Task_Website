@@ -248,7 +248,7 @@ button[type=submit] {
   color: white;
 }
 
-.fg-main {
+.fg-main, .b3-employees-cards li > .name {
   color: var(--fg-main-color);
 }
 
@@ -304,6 +304,9 @@ button[type=submit] {
 }
 .b1-imgs li > p {
   text-align: center;
+  font-family: "Montserrat-Bold";
+  font-size: 30px;
+  opacity: 0.35;
 }
 .b1-imgs li:nth-child(2n) {
   margin-top: -50px;
