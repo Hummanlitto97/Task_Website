@@ -23,7 +23,7 @@
         <main>
             <section>
                 <h1 class="font-size-74 font-family-Montserrat-Bold fg-white">Neleiskite, kad prarasti dantys<br>
-                <span class="font-size-92 font-family-Montserrat-Black fg-white">taptu nuosprendžiu !</span><br>
+                <span class="font-size-92 font-family-Montserrat-Black fg-white">taptų nuosprendžiu !</span><br>
                 <span class="font-size-64 font-family-Montserrat-Bold fg-white">Kodėl netenkame dantų ?</span>
             </h1>
                 <div class="b1-title">01</div>
@@ -63,7 +63,7 @@
             <section class="b6">
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 2.svg"/>
                 <div class="b6-title">06</div>
-                <p class="font-size-67 font-family-Montserrat-Bold fg-secondary">Pradėti yra praprasta<br>
+                <p class="font-size-67 font-family-Montserrat-Bold fg-secondary">Pradėti yra paprasta<br>
                 <strong class="font-size-120 font-family-Montserrat-Black fg-main">ženkite pirmą žingsnį</strong></p>
                 <img class="bg arrow" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
                 <form class="register-form">
