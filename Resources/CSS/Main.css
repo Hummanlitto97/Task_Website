@@ -242,6 +242,7 @@ button[type=submit] {
   color: white;
   font-size: 236px;
   font-family: "Montserrat-Black";
+  margin-bottom: 100px;
 }
 .b1-title::after, .b6-title::after {
   content: "";
@@ -273,6 +274,7 @@ button[type=submit] {
   color: white;
   font-size: 236px;
   font-family: "Montserrat-Black";
+  margin-bottom: 100px;
 }
 .b3-title::after {
   content: "";
@@ -328,12 +330,15 @@ button[type=submit] {
 }
 
 .b3 > .bg {
-  top: 580px;
+  top: 698px;
   left: -200px;
+  width: 1500px;
 }
 
 .b6 > .bg:not(.arrow) {
-  top: -330px;
+  top: -396px;
+  left: 313px;
+  width: 1500px;
 }
 
 .b3-employees-cards {
@@ -391,8 +396,8 @@ button[type=submit] {
 
 .arrow {
   width: 300px;
-  right: 0px;
-  top: 415px;
+  right: 200px;
+  top: 530px;
 }
 
 .footer-address {
