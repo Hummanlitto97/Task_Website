@@ -133,13 +133,14 @@ section {
 }
 
 footer {
-  background-image: url(../Images/Map.png);
-  position: relative;
-  background-size: cover;
-  height: 900px;
   -webkit-mask-image: linear-gradient(#00000001, #000);
   -moz-mask-image: linear-gradient(#00000001, #000);
   mask-image: linear-gradient(#00000001, #000);
+  background-image: url(../Images/Map.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  height: 900px;
   justify-content: space-between;
   align-items: flex-end;
 }
