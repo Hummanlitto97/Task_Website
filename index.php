@@ -59,9 +59,9 @@
                 <p class="font-size-67 font-weight-bold fg-secondary">Pradėti yra praprasta<br>
                 <strong class="font-size-120 font-weight-bold fg-main">ženkite pirmą žingsnį</strong></p>
                 <img class="bg" src="Resources/Images/SVG/Kreives/KreivesAsset 8.svg"/>
-                <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
                 <form class="register-form">
-                <p class="font-size-30 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
+                    <p class="font-size-80 font-weight-bold fg-secondary">Registracija nemokamai konsultacijai</p>
+                    <p class="font-size-30 font-weight-lighter">Liko <strong class="font-size-116 font-weight-bold fg-main">9</strong> nemokamos registracijos</p>
                         <div>
                             <input class="smooth-box" type="text" placeholder="Vardas, pavardė"/>
                             <input class="smooth-box" type="text" placeholder="Telefonas"/>

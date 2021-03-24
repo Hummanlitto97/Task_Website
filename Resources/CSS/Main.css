@@ -292,6 +292,9 @@ button[type=submit] {
   text-shadow: 2px 2px 80px #00000052;
 }
 
+.register-form {
+  margin-top: 200px;
+}
 .register-form > * {
   margin-block: 10px;
 }
