@@ -137,7 +137,9 @@ footer {
   position: relative;
   background-size: cover;
   height: 500px;
-  -webkit-mask-image: linear-gradient(#0001, #000);
+  -webkit-mask-image: linear-gradient(#00000001, #000);
+  -moz-mask-image: linear-gradient(#00000001, #000);
+  mask-image: linear-gradient(#00000001, #000);
   justify-content: space-between;
   align-items: flex-end;
 }
@@ -318,7 +320,7 @@ button[type=submit] {
 .register-form > * {
   margin-block: 10px;
 }
-.register-form > input {
+.register-form input {
   font-size: 30px;
   font-weight: lighter;
 }
