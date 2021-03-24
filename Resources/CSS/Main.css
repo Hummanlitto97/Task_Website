@@ -130,6 +130,7 @@ ul {
 
 section {
   position: relative;
+  margin-block: 800px;
 }
 
 footer {
