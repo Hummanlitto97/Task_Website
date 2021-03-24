@@ -287,10 +287,6 @@ button[type=submit] {
   background-position: center;
   background-size: cover;
 }
-.b1-img.active {
-  filter: grayscale(0);
-  opacity: 1;
-}
 .b1-img:hover {
   filter: grayscale(0);
 }
@@ -298,6 +294,12 @@ button[type=submit] {
 .b1-imgs {
   justify-content: space-between;
   list-style-type: none;
+}
+.b1-imgs li.active > img {
+  filter: grayscale(0);
+}
+.b1-imgs li.active > p {
+  opacity: 1;
 }
 .b1-imgs li {
   width: 400px;
