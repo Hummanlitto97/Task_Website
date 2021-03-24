@@ -282,6 +282,10 @@ button[type=submit] {
   left: -200px;
 }
 
+.b6 > .bg {
+  top: -330px;
+}
+
 .b3-employees-cards {
   justify-content: space-between;
   list-style-type: none;
