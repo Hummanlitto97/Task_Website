@@ -295,7 +295,7 @@ button[type=submit] {
   justify-content: space-between;
   list-style-type: none;
 }
-.b1-imgs li.active > img {
+.b1-imgs li.active > div {
   filter: grayscale(0);
 }
 .b1-imgs li.active > p {
