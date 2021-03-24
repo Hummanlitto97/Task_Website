@@ -392,6 +392,7 @@ button[type=submit] {
   font-size: 30px;
   font-family: "Montserrat-Light";
   text-align: center;
+  margin-inline: 100px;
 }
 
 .arrow {
