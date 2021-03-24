@@ -145,10 +145,6 @@ body {
   font-family: "Montserrat-Regular";
 }
 
-p {
-  color: var(--fg-secondary-color);
-}
-
 h1 {
   color: var(--fg-main-color);
 }

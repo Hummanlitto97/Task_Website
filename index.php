@@ -36,7 +36,7 @@
                         </li>
                     <?php }?>
                 </ul>
-                <p class="b1-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 
+                <p class="b1-text fg-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quo excepturi quaerat necessitatibus ducimus saepe libero velit unde, 
                 nisi aspernatur magni voluptates sit repellat a vitae itaque, ratione delectus cupiditate.lore</p>
             </section>
             <section class="b3">
@@ -45,14 +45,14 @@
                 <ul class="b3-employees-cards">
                     <li class="b3-employee-card-8">
                         <div class="name">Name</div>
-                        <div class="position">Position</div>
+                        <div class="position fg-secondary">Position</div>
                         <hr>
                         <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
                     </li>
                     <li class="b3-employee-card-9">
                         <div class="name">Name</div>
-                        <div class="position">Position</div>
+                        <div class="position fg-secondary">Position</div>
                         <hr>
                         <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui architecto tenetur sint cupiditate maxime voluptatum totam in commodi quisquam deserunt, 
                         eum, autem obcaecati accusamus, distinctio explicabo? Suscipit cumque quia obcaecati?</p>
