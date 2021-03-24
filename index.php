@@ -3,6 +3,13 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Rieses Odontologija</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/Resources/Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/Resources/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/Resources/Favicon/favicon-16x16.png">
+        <link rel="manifest" href="/Resources/Favicon/site.webmanifest">
+        <link rel="mask-icon" href="/Resources/Favicon/safari-pinned-tab.svg" color="#353535">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="theme-color" content="#000000">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="Resources/CSS/Main.css"/>
     </head>
@@ -90,10 +97,14 @@
                     <p>VI - <time datetime="10:00">10:00</time> - <time datetime="16:00">16:00</time></p>
                     <ul class="social-bar">
                         <li>
-                            <a href="www.facebook.com" target="_blank" rel="no-follow"></a>
+                            <a href="www.facebook.com" target="_blank" rel="no-follow">
+                                <img src="Resources/Images/SVG/Socials/facebook_icon.svg"/>
+                            </a>
                         </li>
                         <li>
-                            <a href="www.instagram.com" target="_blank" rel="no-follow"></a>
+                            <a href="www.instagram.com" target="_blank" rel="no-follow">
+                            <img src="Resources/Images/SVG/Socials/insta_icon.svg"/>
+                            </a>
                         </li>
                     </ul>
                 </li>
