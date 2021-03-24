@@ -1,0 +1,424 @@
+//Modules
+@use "sass:string";
+// Functions
+@mixin Font_Faces($fonts, $location)
+{
+    @each $font, $format in $fonts 
+    {
+        @font-face 
+        {
+            font-family: #{$font} sans-serif;
+            src: url(#{$location}#{$font}#{$format});
+        }
+    }
+}
+@mixin Compatibility($property, $value)
+{
+    -webkit-#{$property}: unquote($value);
+    -moz-#{$property}: unquote($value);
+    #{$property}: unquote($value);
+}
+@mixin Property_Values_To_Classes($title, $property, $values, $valuePrefix)
+{
+    @each $value in $values
+    {
+        .#{$title}-#{$value}
+        {
+            #{$property}: #{$value}#{$valuePrefix};
+        }
+    }
+}
+
+@mixin Block_1_Images_List($location)
+{
+    @for $i from 1 through 3
+    {
+        $path: #{$location}#{$i}#{".jpg"};
+        .b1-img-#{$i}
+        {
+            background-image: url($path);
+        }
+    }
+}
+@mixin Block_3_Employee_Cards_List($location)
+{
+    @for $i from 8 through 9
+    {
+        $path: #{$location}#{$i}#{".png"};
+        .b3-employee-card-#{$i}::after
+        {
+            background-image: url($path);
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            width: 100%;
+            height: 300px;
+            position: absolute;
+            right: if($i == 8, -12%, -10%);
+            top: -250px;
+        }
+    }
+}
+// Arrays
+$fontSizes: 236, 120, 116, 92, 80, 74, 70, 67, 64, 60, 55, 40, 30;
+$flexSizes: 1, 4;
+$fontFaces: ("Montserrat-Black": ".otf",
+             "Montserrat-Bold": ".otf",
+             "Montserrat-Light": ".otf",
+             "Montserrat-Regular":".otf");
+$fontWeights: "Montserrat-Light", "Montserrat-Bold", "Montserrat-Black", "Montserrat-Regular";
+$blocksImagesLocation: "../Images/";
+// Variables
+$shadowDarkSettings: "2px 2px 80px #00000052";
+$shadowLightSetting: "2px 2px 80px #614A9D88";
+// Init
+@include Font_Faces($fontFaces, "../Fonts/");
+@include Property_Values_To_Classes("f", "flex", $flexSizes, "");
+@include Property_Values_To_Classes("font-size", "font-size", $fontSizes, "px");
+@include Property_Values_To_Classes("font-family", "font-family", $fontWeights, "");
+@include Block_1_Images_List($blocksImagesLocation);
+@include Block_3_Employee_Cards_List($blocksImagesLocation);
+// CSS
+// -Variables
+:root
+{
+    --fg-main-color: #ED4296;
+    --fg-secondary-color: #373F50;
+    --main-shadow-color: #614A9D;
+    --submit-button-color: #FF0815;
+}
+// -Lines
+// --HTML elements
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    color: white;
+    font-family: "Montserrat-Regular";
+    width: 1920px;
+    height: 1200px;
+}
+h1
+{
+    color: var(--fg-main-color);
+}
+ul
+{
+    list-style: none;
+}
+section:not(:first-child):not(:last-child)
+{
+    margin-block: 800px;
+}
+section
+{
+    position: relative;
+}
+footer
+{
+    @include Compatibility(mask-image, linear-gradient(#00000001,#000));
+    background-image: url(../Images/Map.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 900px;
+    justify-content: space-between;
+    align-items: flex-end;
+    &>.bg
+    {
+        z-index: 0;
+        opacity: .8;
+    }
+    &>.logo-container,>.footer-address
+    {
+        margin: 50px;
+        z-index: 1;
+    }
+
+}
+header
+{
+    position: relative;
+}
+header>.bg
+{
+    width: 100%;
+}
+main, header>.logo-container>img
+{
+    margin-inline: 100px;
+}
+header>.logo-container>img
+{
+    margin-top: 100px;
+    width: 200px;
+    margin: 100px;
+}
+button[type='submit']
+{
+    background-color: var(--submit-button-color);
+    padding-inline: 100px;
+    color: white;
+    box-shadow: unquote($shadowLightSetting);
+}
+// --Classes
+.f-dis
+{
+    display: flex;
+}
+.f-row
+{
+    flex-direction:row;
+}
+.f-col
+{
+    flex-direction: column;
+}
+.f-center
+{
+    justify-content: center;
+    align-items: center;  
+}
+.bg
+{
+    position: absolute;
+    z-index: -1;
+}
+.smooth-box
+{
+    border-radius: 20px;
+}
+.b1-title, .b6-title
+{
+    text-shadow: unquote($shadowDarkSettings);
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size:236px;
+    font-family: "Montserrat-Black";
+    margin-bottom: 100px;
+    &::after
+    {
+        content: "";
+        width: 5%;
+        height: 5%;
+        position: absolute;
+        bottom: 6%;
+        right: 2%;
+        background-color:white;
+        box-shadow: unquote($shadowDarkSettings);
+    }
+}
+.fg-white
+{
+    color:white;
+}
+.fg-main
+{
+    color:var(--fg-main-color)
+}
+.fg-secondary
+{
+    color: var(--fg-secondary-color);
+}
+.b3-title
+{
+    text-shadow: unquote($shadowDarkSettings);
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 236px;
+    font-family: "Montserrat-Black";
+    margin-bottom: 100px;
+    &::after
+    {
+        content: "";
+        width: 5%;
+        height: 5%;
+        position: absolute;
+        bottom: 6%;
+        left: 2%;
+        background-color:white;
+        box-shadow: unquote($shadowDarkSettings);
+    }
+}
+.b1-text
+{
+    text-align: right;
+    font-family: "Montserrat-Light";
+    font-size: 30px;
+    margin-left: 30%;
+}
+.b1-img
+{
+    filter: grayscale(1);
+    transition: filter .8s;
+    background-position: center;
+    background-size: cover;
+    @extend .smooth-box;
+    &:hover
+    {
+        filter: grayscale(0);
+    }
+}
+.b1-imgs
+{ 
+    @extend .f-dis;
+    @extend .f-row;
+    justify-content: space-between;
+    list-style-type: none;
+    li.active 
+    {
+        &>div
+        {
+            filter: grayscale(0);
+        }
+        &>p
+        {
+            opacity: 1;
+        }
+    }
+    li
+    {
+        width: 400px;
+        height: 400px;
+        @extend .f-dis;
+        @extend .f-col;
+    }
+    li>p
+    {
+        text-align: center;
+        font-family: "Montserrat-Bold";
+        font-size: 30px;
+        color: var(--fg-secondary-color);
+        opacity: 0.35;
+    }
+    li:nth-child(2n)
+    {
+        margin-top: -50px;
+    }
+}
+.b3>.bg
+{
+    top: 698px;
+    left: -200px;
+    width: 1500px;
+}
+.b6>.bg:not(.arrow)
+{
+    top: -396px;
+    left: 313px;
+    width: 1500px;
+}
+.b3-employees-cards
+{ 
+    @extend .f-dis;
+    @extend .f-row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top:300px;
+    li
+    {
+        width: 400px;
+        height: auto;
+        position: relative;
+        padding: 10px;
+        background: white;
+        @extend .f-dis;
+        @extend .f-col;
+        @extend .smooth-box;
+    }
+    li>*
+    {
+        margin-block: 10px;
+    }
+    li>hr
+    {
+        margin-inline: 35px;
+    }
+    li>.name
+    {
+        @extend .font-family-Montserrat-Bold;
+        @extend .fg-main;
+        text-align: center;
+        font-size: 40px;
+    }
+    li>.position
+    {
+        @extend .font-family-Montserrat-Light;
+        font-size: 30px;
+        text-align:center;
+        opacity: 0.35;
+    }
+    li:nth-child(2n+1)
+    {
+        box-shadow: unquote($shadowLightSetting);
+    }
+    li:nth-child(2n)
+    {
+        margin-top: -100px;
+        margin-bottom: 100px;
+        box-shadow: unquote($shadowDarkSettings);
+    }
+}
+.number
+{
+    font-size: 236px;
+    @extend .font-family-Montserrat-Bold;
+    text-shadow: unquote($shadowDarkSettings);
+}
+.register-form
+{
+    margin-top: 200px;
+    @extend .f-dis;
+    @extend .f-col;
+    @extend .f-center;
+    &>*
+    {
+      margin-block: 10px;
+    }
+    & input
+    {
+        font-size: 30px;
+        font-family: "Montserrat-Light";
+        text-align: center;
+        margin-inline: 20px;
+    }
+}
+.arrow
+{
+    width: 300px;
+    right: 200px;
+    top: 530px;
+}
+.footer-address
+{
+    list-style-type: none;
+    &>li
+    {
+        padding-inline: 10px;
+        margin-inline: 10px;
+    }
+    &>li:first-child
+    {
+        border-right: solid 1px #FFF;
+    }
+}
+.social-bar
+{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    &>li
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
